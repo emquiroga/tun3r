@@ -1,0 +1,12 @@
+{
+    "parser": "@babel/eslint-parser",
+    "extends": ["standard", "standard-jsx", "standard-react"],
+    "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "requireConfigFile": false
+    }
+}
